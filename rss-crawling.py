@@ -13,7 +13,7 @@ import re
 #엑셀 작성 준비 
 wb = Workbook()
 ws1 = wb.active
-ws1.title = "유진이 숙제1 "
+ws1.title = " 숙제1 "
 ws1.append(["Authers", "title","Abstract0","Abstract1","keywords","Pubdate","title+abstract","title+abstract+keywords","종류"])
 
 
@@ -169,7 +169,7 @@ for i in range(4, 7):
 #8 -> 7로 바꿔야 되는거 아닌가??
 #마지막 페이지에는 행수가 다름. 
 
-wb.save(filename='유진이숙제1_1.xlsx')
+wb.save(filename='숙제1_1.xlsx')
 
 i = 7
 print ("마지막 페이지:")
@@ -248,4 +248,4 @@ for i in range(1, 3):
     #파일이름
 print("종료")
 browser.quit()
-wb.save(filename='유진이숙제1_2.xlsx')
+wb.save(filename='숙제1_2.xlsx')
